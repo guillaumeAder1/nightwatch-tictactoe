@@ -5,6 +5,6 @@ exports.command = function(url, username, position, size) {
         .waitForElementVisible('#userName', 10000)
         .setValue('#userName', username)
         .click('#login')
-        .pause(5000);
+
     return this.execute();
 };

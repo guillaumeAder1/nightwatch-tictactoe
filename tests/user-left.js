@@ -7,9 +7,15 @@ module.exports = {
     'test User left': function(client) {
         //var page = client.page.gws();
 
-        client.openBrowser('http://localhost:9000/#/sailsApp/', "left", { top: 0, left: 0 }, { w: 350, h: 1000 })
+        client.openBrowser('http://localhost:9000/#/sailsApp/', "left", { top: 0, left: 0 }, { w: 350, h: 1000 });
 
-        client.click('#clearData')
+        // user left create a new room
+        client.createRoom();
+
+
+        client.beforeClosing();
+        client.useCss().click('#clearData');
+        client.pause(500);
         client.end();
 
     },

@@ -1,95 +1,95 @@
-19:18:33.845 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-19:18:33.845 INFO - Launching a standalone Selenium Server
-2017-06-14 19:18:33.861:INFO::main: Logging initialized @179ms to org.seleniumhq.jetty9.util.log.StdErrLog
-19:18:33.908 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-19:18:33.908 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+21:10:08.279 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+21:10:08.279 INFO - Launching a standalone Selenium Server
+2017-06-14 21:10:08.294:INFO::main: Logging initialized @283ms to org.seleniumhq.jetty9.util.log.StdErrLog
+21:10:08.341 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+21:10:08.341 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-19:18:33.908 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-19:18:33.908 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-19:18:33.908 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+21:10:08.341 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+21:10:08.341 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+21:10:08.341 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
-2017-06-14 19:18:33.939:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-06-14 19:18:33.954:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@18355a8{/,null,AVAILABLE}
-2017-06-14 19:18:34.017:INFO:osjs.AbstractConnector:main: Started ServerConnector@a7254a{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-06-14 19:18:34.017:INFO:osjs.Server:main: Started @338ms
-19:18:34.017 INFO - Selenium Server is up and running
-19:18:34.462 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-19:18:34.478 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=User Left, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-19:18:34.478 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=User Middle, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-19:18:34.478 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=User Right, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-19:18:34.494 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=User Middle, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-19:18:34.494 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=User Left, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-19:18:34.494 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=User Right, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 21625
+2017-06-14 21:10:08.388:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-06-14 21:10:08.419:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@18355a8{/,null,AVAILABLE}
+2017-06-14 21:10:08.513:INFO:osjs.AbstractConnector:main: Started ServerConnector@12108b5{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-06-14 21:10:08.513:INFO:osjs.Server:main: Started @499ms
+21:10:08.513 INFO - Selenium Server is up and running
+21:10:09.118 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+21:10:09.149 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=User Middle, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+21:10:09.149 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=User Right, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+21:10:09.149 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=User Left, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+21:10:09.149 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=User Left, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+21:10:09.149 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=User Middle, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+21:10:09.149 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=User Right, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 31135
 Only local connections are allowed.
-Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 10879
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 15759
 Only local connections are allowed.
-Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 18822
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 14176
 Only local connections are allowed.
-19:18:36.920 INFO - Detected dialect: OSS
-19:18:36.920 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=User Left, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-19:18:36.936 INFO - Executing: [get: http://localhost:9000/#/sailsApp/])
-19:18:36.974 INFO - Detected dialect: OSS
-19:18:36.975 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=User Middle, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-19:18:36.988 INFO - Executing: [get: http://localhost:9000/#/sailsApp/])
-19:18:37.045 INFO - Detected dialect: OSS
-19:18:37.048 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=User Right, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-19:18:37.074 INFO - Executing: [get: http://localhost:9000/#/sailsApp/])
-19:18:38.001 INFO - Done: [get: http://localhost:9000/#/sailsApp/]
-19:18:38.031 INFO - Done: [get: http://localhost:9000/#/sailsApp/]
-19:18:38.032 INFO - Executing: [set window position])
-19:18:38.045 INFO - Executing: [set window position])
-19:18:38.059 INFO - Done: [get: http://localhost:9000/#/sailsApp/]
-19:18:38.065 INFO - Executing: [set window position])
-19:18:39.211 INFO - Done: [set window position]
-19:18:39.211 INFO - Done: [set window position]
-19:18:39.211 INFO - Executing: [set window size])
-19:18:39.211 INFO - Executing: [set window size])
-19:18:39.248 INFO - Done: [set window size]
-19:18:39.258 INFO - Done: [set window size]
-19:18:39.260 INFO - Executing: [find elements: By.cssSelector: #userName])
-19:18:39.263 INFO - Executing: [find elements: By.cssSelector: #userName])
-19:18:39.266 INFO - Done: [set window position]
-19:18:39.274 INFO - Executing: [set window size])
-19:18:39.324 INFO - Done: [set window size]
-19:18:39.328 INFO - Executing: [find elements: By.cssSelector: #userName])
-19:18:39.332 INFO - Done: [find elements: By.cssSelector: #userName]
-19:18:39.340 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (08a66a7d7f672a86f7257ae28bef28a6)] -> css selector: #userName]])
-19:18:39.345 INFO - Done: [find elements: By.cssSelector: #userName]
-19:18:39.349 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (3d0059a1260366bbbd8e0cca8e3502f9)] -> css selector: #userName]])
-19:18:39.366 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (08a66a7d7f672a86f7257ae28bef28a6)] -> css selector: #userName]]
-19:18:39.366 INFO - Done: [find elements: By.cssSelector: #userName]
-19:18:39.366 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (f542a7307381523bbc8c62687f952943)] -> css selector: #userName]])
-19:18:39.366 INFO - Executing: [find element: By.cssSelector: #userName])
-19:18:39.366 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (3d0059a1260366bbbd8e0cca8e3502f9)] -> css selector: #userName]]
-19:18:39.366 INFO - Executing: [find element: By.cssSelector: #userName])
-19:18:39.382 INFO - Done: [find element: By.cssSelector: #userName]
-19:18:39.382 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (f542a7307381523bbc8c62687f952943)] -> css selector: #userName]]
-19:18:39.382 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on XP (08a66a7d7f672a86f7257ae28bef28a6)] -> css selector: #userName], [m, i, d, d, l, e]])
-19:18:39.382 INFO - Executing: [find element: By.cssSelector: #userName])
-19:18:39.397 INFO - Done: [find element: By.cssSelector: #userName]
-19:18:39.397 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on XP (3d0059a1260366bbbd8e0cca8e3502f9)] -> css selector: #userName], [l, e, f, t]])
-19:18:39.413 INFO - Done: [find element: By.cssSelector: #userName]
-19:18:39.413 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on XP (f542a7307381523bbc8c62687f952943)] -> css selector: #userName], [R, i, g, h, t]])
-19:18:39.460 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on XP (08a66a7d7f672a86f7257ae28bef28a6)] -> css selector: #userName], [m, i, d, d, l, e]]
-19:18:39.464 INFO - Executing: [find element: By.cssSelector: #login])
-19:18:39.482 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on XP (3d0059a1260366bbbd8e0cca8e3502f9)] -> css selector: #userName], [l, e, f, t]]
-19:18:39.487 INFO - Executing: [find element: By.cssSelector: #login])
-19:18:39.492 INFO - Done: [find element: By.cssSelector: #login]
-19:18:39.496 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (08a66a7d7f672a86f7257ae28bef28a6)] -> css selector: #login]])
-19:18:39.500 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on XP (f542a7307381523bbc8c62687f952943)] -> css selector: #userName], [R, i, g, h, t]]
-19:18:39.504 INFO - Executing: [find element: By.cssSelector: #login])
-19:18:39.509 INFO - Done: [find element: By.cssSelector: #login]
-19:18:39.512 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (3d0059a1260366bbbd8e0cca8e3502f9)] -> css selector: #login]])
-19:18:39.523 INFO - Done: [find element: By.cssSelector: #login]
-19:18:39.526 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (f542a7307381523bbc8c62687f952943)] -> css selector: #login]])
-19:18:39.557 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (08a66a7d7f672a86f7257ae28bef28a6)] -> css selector: #login]]
-19:18:39.575 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (3d0059a1260366bbbd8e0cca8e3502f9)] -> css selector: #login]]
-19:18:39.588 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (f542a7307381523bbc8c62687f952943)] -> css selector: #login]]
-19:18:44.564 INFO - Executing: [execute script: null, []])
-19:18:44.580 INFO - Executing: [execute script: null, []])
-19:18:44.596 INFO - Executing: [execute script: null, []])
-19:18:44.988 WARN - Exception thrown
+21:10:11.658 INFO - Detected dialect: OSS
+21:10:11.673 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=User Right, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+21:10:11.673 INFO - Detected dialect: OSS
+21:10:11.673 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=User Middle, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+21:10:11.689 INFO - Executing: [get: http://localhost:9000/#/sailsApp/])
+21:10:11.689 INFO - Executing: [get: http://localhost:9000/#/sailsApp/])
+21:10:11.741 INFO - Detected dialect: OSS
+21:10:11.742 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=User Left, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+21:10:11.778 INFO - Executing: [get: http://localhost:9000/#/sailsApp/])
+21:10:12.957 INFO - Done: [get: http://localhost:9000/#/sailsApp/]
+21:10:12.965 INFO - Executing: [set window position])
+21:10:12.975 INFO - Done: [get: http://localhost:9000/#/sailsApp/]
+21:10:12.988 INFO - Executing: [set window position])
+21:10:12.999 INFO - Done: [get: http://localhost:9000/#/sailsApp/]
+21:10:13.006 INFO - Executing: [set window position])
+21:10:14.081 INFO - Done: [set window position]
+21:10:14.086 INFO - Executing: [set window size])
+21:10:14.107 INFO - Done: [set window size]
+21:10:14.117 INFO - Executing: [find elements: By.cssSelector: #userName])
+21:10:14.144 INFO - Done: [find elements: By.cssSelector: #userName]
+21:10:14.144 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (1dde296e50e42b178696cb7aac751970)] -> css selector: #userName]])
+21:10:14.159 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (1dde296e50e42b178696cb7aac751970)] -> css selector: #userName]]
+21:10:14.159 INFO - Executing: [find element: By.cssSelector: #userName])
+21:10:14.175 INFO - Done: [find element: By.cssSelector: #userName]
+21:10:14.191 INFO - Done: [set window position]
+21:10:14.191 INFO - Done: [set window position]
+21:10:14.191 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on XP (1dde296e50e42b178696cb7aac751970)] -> css selector: #userName], [m, i, d, d, l, e]])
+21:10:14.191 INFO - Executing: [set window size])
+21:10:14.191 INFO - Executing: [set window size])
+21:10:14.228 INFO - Done: [set window size]
+21:10:14.228 INFO - Done: [set window size]
+21:10:14.240 INFO - Executing: [find elements: By.cssSelector: #userName])
+21:10:14.240 INFO - Executing: [find elements: By.cssSelector: #userName])
+21:10:14.271 INFO - Done: [find elements: By.cssSelector: #userName]
+21:10:14.276 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (c88692dd576f130aba1b0c35dd60e895)] -> css selector: #userName]])
+21:10:14.276 INFO - Done: [find elements: By.cssSelector: #userName]
+21:10:14.282 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (4a3e73e53aa01e63f91a2d307f8a7ea5)] -> css selector: #userName]])
+21:10:14.301 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on XP (1dde296e50e42b178696cb7aac751970)] -> css selector: #userName], [m, i, d, d, l, e]]
+21:10:14.303 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (c88692dd576f130aba1b0c35dd60e895)] -> css selector: #userName]]
+21:10:14.304 INFO - Executing: [find element: By.cssSelector: #login])
+21:10:14.306 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (4a3e73e53aa01e63f91a2d307f8a7ea5)] -> css selector: #userName]]
+21:10:14.307 INFO - Executing: [find element: By.cssSelector: #userName])
+21:10:14.310 INFO - Executing: [find element: By.cssSelector: #userName])
+21:10:14.324 INFO - Done: [find element: By.cssSelector: #login]
+21:10:14.326 INFO - Done: [find element: By.cssSelector: #userName]
+21:10:14.330 INFO - Done: [find element: By.cssSelector: #userName]
+21:10:14.330 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (1dde296e50e42b178696cb7aac751970)] -> css selector: #login]])
+21:10:14.332 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on XP (c88692dd576f130aba1b0c35dd60e895)] -> css selector: #userName], [l, e, f, t]])
+21:10:14.333 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on XP (4a3e73e53aa01e63f91a2d307f8a7ea5)] -> css selector: #userName], [R, i, g, h, t]])
+21:10:14.385 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (1dde296e50e42b178696cb7aac751970)] -> css selector: #login]]
+21:10:14.389 INFO - Executing: [execute script: null, []])
+21:10:14.400 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on XP (c88692dd576f130aba1b0c35dd60e895)] -> css selector: #userName], [l, e, f, t]]
+21:10:14.403 INFO - Executing: [find element: By.cssSelector: #login])
+21:10:14.419 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on XP (4a3e73e53aa01e63f91a2d307f8a7ea5)] -> css selector: #userName], [R, i, g, h, t]]
+21:10:14.422 INFO - Executing: [find element: By.cssSelector: #login])
+21:10:14.452 INFO - Done: [find element: By.cssSelector: #login]
+21:10:14.453 INFO - Done: [find element: By.cssSelector: #login]
+21:10:14.457 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (c88692dd576f130aba1b0c35dd60e895)] -> css selector: #login]])
+21:10:14.457 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (4a3e73e53aa01e63f91a2d307f8a7ea5)] -> css selector: #login]])
+21:10:14.525 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (4a3e73e53aa01e63f91a2d307f8a7ea5)] -> css selector: #login]]
+21:10:14.531 INFO - Executing: [execute script: null, []])
+21:10:14.568 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (c88692dd576f130aba1b0c35dd60e895)] -> css selector: #login]]
+21:10:14.574 INFO - Executing: [execute script: null, []])
+21:10:14.840 WARN - Exception thrown
 java.lang.NullPointerException
 	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:564)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -105,8 +105,8 @@ java.lang.NullPointerException
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-19:18:44.988 WARN - Exception: null
-19:18:45.004 WARN - Exception thrown
+21:10:14.843 WARN - Exception: null
+21:10:14.864 WARN - Exception thrown
 java.lang.NullPointerException
 	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:564)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -122,8 +122,8 @@ java.lang.NullPointerException
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-19:18:45.004 WARN - Exception: null
-19:18:45.004 WARN - Exception thrown
+21:10:14.864 WARN - Exception: null
+21:10:14.896 WARN - Exception thrown
 java.lang.NullPointerException
 	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:564)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -139,10 +139,124 @@ java.lang.NullPointerException
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-19:18:45.004 WARN - Exception: null
-19:18:45.035 INFO - Executing: [delete session: 35a687de-9180-4355-a05d-a73f4a5a0bc2])
-19:18:45.035 INFO - Executing: [delete session: 61997bc0-6c66-4ac6-95c5-f0f4e83374c9])
-19:18:45.035 INFO - Executing: [delete session: a83cff4f-8f61-4f98-abcc-8d12e71c687a])
-19:18:46.061 INFO - Done: [delete session: a83cff4f-8f61-4f98-abcc-8d12e71c687a]
-19:18:46.061 INFO - Done: [delete session: 35a687de-9180-4355-a05d-a73f4a5a0bc2]
-19:18:46.062 INFO - Done: [delete session: 61997bc0-6c66-4ac6-95c5-f0f4e83374c9]
+21:10:14.896 WARN - Exception: null
+21:10:14.896 INFO - Executing: [find elements: By.xpath: //*[contains(text(),'Created by:')]])
+21:10:14.911 INFO - Done: [find elements: By.xpath: //*[contains(text(),'Created by:')]]
+21:10:15.426 INFO - Executing: [find element: By.cssSelector: #createRoom])
+21:10:15.426 INFO - Executing: [find elements: By.xpath: //*[contains(text(),'Created by:')]])
+21:10:15.457 INFO - Done: [find elements: By.xpath: //*[contains(text(),'Created by:')]]
+21:10:15.472 INFO - Done: [find element: By.cssSelector: #createRoom]
+21:10:15.472 INFO - Executing: [click: 2 [[ChromeDriver: chrome on XP (c88692dd576f130aba1b0c35dd60e895)] -> css selector: #createRoom]])
+21:10:15.517 INFO - Done: [click: 2 [[ChromeDriver: chrome on XP (c88692dd576f130aba1b0c35dd60e895)] -> css selector: #createRoom]]
+21:10:15.523 INFO - Executing: [find elements: By.xpath: //*[contains(text(),'Created by:')]])
+21:10:15.555 INFO - Done: [find elements: By.xpath: //*[contains(text(),'Created by:')]]
+21:10:15.559 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on XP (c88692dd576f130aba1b0c35dd60e895)] -> xpath: //*[contains(text(),'Created by:')]]])
+21:10:15.580 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on XP (c88692dd576f130aba1b0c35dd60e895)] -> xpath: //*[contains(text(),'Created by:')]]]
+21:10:15.585 INFO - Executing: [execute script: null, []])
+21:10:15.847 WARN - Exception thrown
+java.lang.NullPointerException
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:564)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy4.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:217)
+	at org.openqa.selenium.remote.server.handler.ExecuteScript.call(ExecuteScript.java:56)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+21:10:15.847 WARN - Exception: null
+21:10:15.972 INFO - Executing: [find elements: By.xpath: //*[contains(text(),'Created by:')]])
+21:10:16.003 INFO - Done: [find elements: By.xpath: //*[contains(text(),'Created by:')]]
+21:10:16.003 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (4a3e73e53aa01e63f91a2d307f8a7ea5)] -> xpath: //*[contains(text(),'Created by:')]]])
+21:10:16.034 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (4a3e73e53aa01e63f91a2d307f8a7ea5)] -> xpath: //*[contains(text(),'Created by:')]]]
+21:10:16.034 INFO - Executing: [find element: By.xpath: //*[contains(text(),'Created by:')]])
+21:10:16.066 INFO - Done: [find element: By.xpath: //*[contains(text(),'Created by:')]]
+21:10:16.066 INFO - Executing: [click: 2 [[ChromeDriver: chrome on XP (4a3e73e53aa01e63f91a2d307f8a7ea5)] -> xpath: //*[contains(text(),'Created by:')]]])
+21:10:16.116 INFO - Done: [click: 2 [[ChromeDriver: chrome on XP (4a3e73e53aa01e63f91a2d307f8a7ea5)] -> xpath: //*[contains(text(),'Created by:')]]]
+21:10:16.118 INFO - Executing: [execute script: null, []])
+21:10:16.404 WARN - Exception thrown
+java.lang.NullPointerException
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:564)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy4.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:217)
+	at org.openqa.selenium.remote.server.handler.ExecuteScript.call(ExecuteScript.java:56)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+21:10:16.404 WARN - Exception: null
+21:10:19.872 INFO - Executing: [execute script: null, []])
+21:10:20.137 WARN - Exception thrown
+java.lang.NullPointerException
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:564)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy4.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:217)
+	at org.openqa.selenium.remote.server.handler.ExecuteScript.call(ExecuteScript.java:56)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+21:10:20.137 WARN - Exception: null
+21:10:20.153 INFO - Executing: [delete session: d16b090c-8f39-426d-981e-4cd22aaa1c3b])
+21:10:20.887 INFO - Executing: [execute script: null, []])
+21:10:21.059 INFO - Done: [delete session: d16b090c-8f39-426d-981e-4cd22aaa1c3b]
+21:10:21.239 WARN - Exception thrown
+java.lang.NullPointerException
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:564)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy4.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:217)
+	at org.openqa.selenium.remote.server.handler.ExecuteScript.call(ExecuteScript.java:56)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+21:10:21.239 WARN - Exception: null
+21:10:21.254 INFO - Executing: [find element: By.cssSelector: #clearData])
+21:10:21.270 INFO - Done: [find element: By.cssSelector: #clearData]
+21:10:21.270 INFO - Executing: [click: 4 [[ChromeDriver: chrome on XP (c88692dd576f130aba1b0c35dd60e895)] -> css selector: #clearData]])
+21:10:21.322 INFO - Done: [click: 4 [[ChromeDriver: chrome on XP (c88692dd576f130aba1b0c35dd60e895)] -> css selector: #clearData]]
+21:10:21.422 INFO - Executing: [execute script: null, []])
+21:10:21.712 WARN - Exception thrown
+java.lang.NullPointerException
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:564)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy4.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:217)
+	at org.openqa.selenium.remote.server.handler.ExecuteScript.call(ExecuteScript.java:56)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+21:10:21.712 WARN - Exception: null
+21:10:21.728 INFO - Executing: [delete session: 7f0f248a-f8c7-4821-bb72-703506389137])
+21:10:21.826 INFO - Executing: [delete session: 32af94fe-6f76-460f-b8cf-323fa5db46fc])
+21:10:22.530 INFO - Done: [delete session: 7f0f248a-f8c7-4821-bb72-703506389137]
+21:10:22.708 INFO - Done: [delete session: 32af94fe-6f76-460f-b8cf-323fa5db46fc]

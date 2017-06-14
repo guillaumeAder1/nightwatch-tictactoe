@@ -1,7 +1,9 @@
+// User will clik on a room to join it
+
+
 exports.command = function() {
-    this.pause(500)
-        .click('#createRoom')
-        .useXpath()
+    this.useXpath()
         .waitForElementVisible("//*[contains(text(),'Created by:')]", 10000)
+        .click("//*[contains(text(),'Created by:')]")
     return this.execute();
 };
