@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="init"
+    errors="0" failures="1" hostname="" id="" package="init" skipped="2"
+    tests="3" time="20.92" timestamp="Wed, 14 Jun 2017 08:23:20 GMT">
+  
+    <testcase name="test using page" classname="init" time="20.92" assertions="1">  <failure message="Timed out while waiting for element &lt;#dijit_form_ValidationTextBox_0&gt; to be present for 10000 milliseconds.">    at Object.exports.command (C:\Users\gader\Documents\__projects\end-to-end-testing\nightwatchJS\custom-commands\login.js:3:10)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="opening:: validate popup manually" classname="init">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="opening:: service is public " classname="init">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
