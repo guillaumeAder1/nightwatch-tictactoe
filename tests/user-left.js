@@ -9,7 +9,7 @@ module.exports = {
 
         client.openBrowser('http://localhost:9000/#/sailsApp/', "left", { top: 0, left: 0 }, { w: 350, h: 1000 })
 
-
+        client.click('#clearData')
         client.end();
 
     },
